@@ -1,0 +1,79 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SignUp</servlet-name>
+  	<display-name>SignUp</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.SignUp</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<display-name>Logout</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>MealTime</servlet-name>
+  	<display-name>MealTime</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.MealTime</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PlaceOrder</servlet-name>
+  	<display-name>PlaceOrder</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.PlaceOrder</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddAddress</servlet-name>
+  	<display-name>AddAddress</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.AddAddress</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>DownloadInvoicePdf</servlet-name>
+  	<display-name>DownloadInvoicePdf</display-name>
+  	<description></description>
+  	<servlet-class>com.tcs.DownloadInvoicePdf</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SignUp</servlet-name>
+  	<url-pattern>/SignUp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>MealTime</servlet-name>
+  	<url-pattern>/MealTime</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PlaceOrder</servlet-name>
+  	<url-pattern>/PlaceOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddAddress</servlet-name>
+  	<url-pattern>/AddAddress</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DownloadInvoicePdf</servlet-name>
+  	<url-pattern>/DownloadInvoicePdf</url-pattern>
+  </servlet-mapping>
+</web-app>
